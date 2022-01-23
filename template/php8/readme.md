@@ -10,14 +10,14 @@ Comes with PHP 8.0.5 and Composer 2. Templates are built using the latest minor 
 
 ## Install:
 
-Note that faas-cli doesn't appear to keep a registry or cache of third-party templates, so running `template pull` will store the template in the immediate `./template` dir; copy or move or re-pull it after initializing a new function.
 
 ```shell
 cd <project-dir>
 faas-cli template pull https://github.com/mattwithoos/openfaas-php8
 faas-cli new <function-name> --lang php8
-cp -R template/php8 <function-name>/template/
 ```
+
+Note that faas-cli doesn't appear to keep a registry or cache of third-party templates, so running `template pull` will store the template in the immediate `./template` dir. Move it, or, update your .yml if this doesn't suit.
 
 In the near future I'll submit the template to the official repo, making the process easier.
 
