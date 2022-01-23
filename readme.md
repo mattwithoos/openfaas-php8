@@ -8,6 +8,12 @@ Comes with PHP 8.0.5 and Composer 2. Templates are built using the latest minor 
 | ------------- |
 | Core, date, libxml, openssl, pcre, sqlite3, zlib, ctype, curl, dom, fileinfo, filter, ftp, hash, iconv, json, mbstring, SPL, PDO, pdo_sqlite, session, posix, readline, Reflection, standard, SimpleXML, Phar, tokenizer, xml, xmlreader, xmlwriter, mysqlnd, sodium |
 
+## Install:
+
+```shell
+faas-cli template pull https://github.com/mattwithoos/openfaas-php8
+```
+
 ## Usage:
 
 ```shell
