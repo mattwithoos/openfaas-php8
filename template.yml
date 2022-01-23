@@ -1,0 +1,7 @@
+language: php8
+fprocess: php index.php
+welcome_message: |
+  You have created a new function which uses the MattWithoos PHP 8.0.5 Template.
+  Dependencies and extensions can be added using the composer.json
+  and php-extension.sh files.
+  See https://github.com/mattwithoos/openfaas-php8.
